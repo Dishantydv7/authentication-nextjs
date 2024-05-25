@@ -14,7 +14,7 @@ export async function GET(request: NextRequest){
             success : true , 
         })
 
-        response.cookies.set('tojen' , '' ,{
+        response.cookies.set('token' , '' ,{
             httpOnly : true  , 
             expires : new Date(0)
         }  )

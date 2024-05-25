@@ -15,11 +15,11 @@ const  userSchema = new Schema({
     } , 
     isVerified : {
         type : Boolean , 
-        default : False ,
+        default : false ,
     },
     isAdmin :{
         type : Boolean , 
-        default : False ,
+        default : false ,
     },
     forgotPasswordToken : String ,
     forgotPasswordTokenExpiry : Date , 
